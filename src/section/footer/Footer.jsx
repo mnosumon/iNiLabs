@@ -24,8 +24,8 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className="flex gap-[26px]">
-                        <a className='content11px underline' href="#">Privacy Policy</a>
-                        <a className='content11px underline' href="#">Terms of Service</a>
+                        <a className='content11px text-[#FFFFFF] underline' href="#">Privacy Policy</a>
+                        <a className='content11px text-[#FFFFFF] underline' href="#">Terms of Service</a>
                     </div>
                     <div className="mt-12">
                         <article className='content11px w-[312px]'>Copyright © 2022 Certo Software Limited | Registered in England & Wales No. 10072356</article>

@@ -6,6 +6,7 @@ import User from './section/User'
 import Collaborate from './section/Collaborate'
 import Work from './section/Work'
 import Connect from './section/Connect'
+import Report from './section/Report'
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <Collaborate/>
       <Work/>
       <Connect/>
+      <Report/>
       <Footer/>
     </>
   )

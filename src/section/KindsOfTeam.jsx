@@ -2,6 +2,10 @@ import React from 'react'
 import HeadingH2 from '../components/utilities/HeadingH2'
 import LearnMore from '../components/utilities/LearnMore'
 import KindsOfTeamImg from '../assets/svg/kindsOfTeam.svg'
+import Integrate1 from '../assets/integrate/integrate1.png'
+import Integrate2 from '../assets/integrate/integrate2.png'
+import Integrate3 from '../assets/integrate/integrate3.png'
+import Integrate4 from '../assets/integrate/integrate4.png'
 
 const KindsOfTeam = () => {
   return (
@@ -25,6 +29,21 @@ const KindsOfTeam = () => {
                     <li className='tickMark'>Run engaging design workshops</li>
                 </ul>
                 <LearnMore/>
+                <article className='content18px mt-[70px] mb-[14px]'>Integrate your favorite tools</article>
+                  <ul className='flex gap-8'>
+                    <li className='h-7 w-7 overflow-hidden'>
+                      <img className='w-full h-full object-cover' src={Integrate4} alt=" Integrate4 image" />
+                    </li>
+                    <li className='h-7 w-7 overflow-hidden'>
+                      <img className='w-full h-full object-cover' src={Integrate3} alt=" Integrate3 image" />
+                    </li>
+                    <li className='h-7 w-8 overflow-hidden'>
+                      <img className='w-full h-full object-cover' src={Integrate2} alt=" Integrate2 image" />
+                    </li>
+                    <li className='h-7 w-7 overflow-hidden'>
+                      <img className='w-full h-full object-cover' src={Integrate1} alt=" Integrate1 image" />
+                    </li>
+                  </ul>
               </div>
               <div className="w-[700px] h-[468px] overflow-hidden">
                 <img className='w-full h-full object-cover' src={KindsOfTeamImg} alt="KindsOfTeam Img" />

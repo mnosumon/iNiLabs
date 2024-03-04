@@ -20,7 +20,7 @@
         @apply text-sm font-inter font-normal leading-5 text-[#050038] capitalize border border-[#F2F2F2] py-[14px] px-5 rounded-3xl hover:bg-[#F1F3FD] transition-all duration-300
     }
     .content18px{
-        @apply text-xl leading-6 font-inter font-normal text-[#050038] opacity-60
+        @apply text-[18px] leading-6 font-inter font-normal text-[#050038] opacity-60
     }
     .tickMark{
         @apply text-xl leading-6 font-inter font-normal text-[#050038] opacity-60 pl-8 relative before:border-[#050038] before:w-2 before:h-[18px] before:border-r-[4px] before:border-b-[4px] before:rotate-45 before:absolute before:top-0 before:left-0

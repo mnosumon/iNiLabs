@@ -9,6 +9,7 @@ import Connect from './section/Connect'
 import Report from './section/Report'
 import Built from './section/Built'
 import KindsOfTeam from './section/KindsOfTeam'
+import BestTeam from './section/BestTeam'
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
       <Report/>
       <Built/>
       <KindsOfTeam/>
+      <BestTeam/>
       <Footer/>
     </>
   )

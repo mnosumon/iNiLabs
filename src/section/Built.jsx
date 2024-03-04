@@ -10,13 +10,13 @@ const Built = () => {
         <div className="max-w-container mx-auto p-[30px] mb-[120px]">
             <HeadingH2 className="mb-8" content="Built for the way you work"/>
             <div className="flex justify-between ">
-                <h6 className='a14px'>Brainstorming</h6>
-                <h6 className='a14px'>Diagramming</h6>
-                <h6 className='a14px'>Meetings & Workshops</h6>
-                <h6 className='a14px'>Scrum Events</h6>
-                <h6 className='a14px'>Mapping</h6>
-                <h6 className='a14px'>Research & Design</h6>
-                <h6 className='a14px'>Strategic Planning</h6>
+                <h6 className='h6_14px'>Brainstorming</h6>
+                <h6 className='h6_14px'>Diagramming</h6>
+                <h6 className='h6_14px'>Meetings & Workshops</h6>
+                <h6 className='h6_14px'>Scrum Events</h6>
+                <h6 className='h6_14px'>Mapping</h6>
+                <h6 className='h6_14px'>Research & Design</h6>
+                <h6 className='h6_14px'>Strategic Planning</h6>
             </div>
             <div className="flex justify-between mt-10">
               <div className="w-[360px] p-4"> 

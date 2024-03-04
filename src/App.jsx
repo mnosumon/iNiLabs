@@ -8,6 +8,7 @@ import Work from './section/Work'
 import Connect from './section/Connect'
 import Report from './section/Report'
 import Built from './section/Built'
+import KindsOfTeam from './section/KindsOfTeam'
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
       <Connect/>
       <Report/>
       <Built/>
+      <KindsOfTeam/>
       <Footer/>
     </>
   )

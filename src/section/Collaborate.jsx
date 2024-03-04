@@ -17,15 +17,15 @@ const Collaborate = () => {
             <div className="flex justify-between px-[10px]">
                 <div className="px-6 pt-6 pb-11 w-[360px]">
                     <HeadingH4 className="mb-[30px]" content="Free forever" />
-                    <article className='content18px'>Our free plan gives you unlimited team members, 3 boards, and 300+ expert-made templates. Signing up with your work email lets you bring in your team faster. See our <a className='content18px text-[#4262FF] cursor-pointer'>Pricing plans</a> for more features.</article>
+                    <article className='content18px'>Our free plan gives you unlimited team members, 3 boards, and 300+ expert-made templates. Signing up with your work email lets you bring in your team faster. See our <a className='content18px text-[blue] cursor-pointer opacity-100'>Pricing plans</a> for more features.</article>
                 </div>
                 <div className="px-6 pt-6 pb-11 w-[360px]">
                     <HeadingH4 className="mb-[30px]" content="Free forever" />
-                    <article className='content18px'>Miro has 100+ powerful integrations with tools you already use like G Suite, Slack, and Jira, so your workflow is seamless. View the full list in our <a className='content18px text-[#4262FF] cursor-pointer'>Marketplace</a></article>
+                    <article className='content18px'>Miro has 100+ powerful integrations with tools you already use like G Suite, Slack, and Jira, so your workflow is seamless. View the full list in our <a className='content18px text-[blue] cursor-pointer opacity-100'>Marketplace</a></article>
                 </div>
                 <div className="px-6 pt-6 pb-11 w-[360px]">
                     <HeadingH4 className="mb-[30px]" content="Free forever" />
-                    <article className='content18px'>We treat your data like you would — with the utmost care. We follow industry-leading security standards and give you tools to protect intellectual property. Learn more at our <a className='content18px text-[#4262FF] cursor-pointer'>Trust Center</a> .</article>
+                    <article className='content18px'>We treat your data like you would — with the utmost care. We follow industry-leading security standards and give you tools to protect intellectual property. Learn more at our <a className='content18px text-[blue] cursor-pointer opacity-100'>Trust Center</a> .</article>
                 </div>
             </div>
             <div className="text-center mt-10">

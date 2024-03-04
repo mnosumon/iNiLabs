@@ -16,8 +16,11 @@
     .content14px{
         @apply text-sm font-inter font-normal leading-5 text-[#050038] capitalize
     }
+    .a14px{
+        @apply text-sm font-inter font-normal leading-5 text-[#050038] capitalize border border-[#F2F2F2] py-[14px] px-5 rounded-3xl hover:bg-[#F1F3FD] transition-all duration-300
+    }
     .content18px{
-        @apply text-xl leading-6 font-inter font-normal text-[#050038]
+        @apply text-xl leading-6 font-inter font-normal text-[#050038] opacity-60
     }
     .device{
         @apply text-[19px] font-inter font-extrabold leading-[25px] text-[#FFC247] pl-[44px] capitalize relative before:absolute before:content-[''] before:h-[2px] before:w-5 before:left-0 before:bg-[#FFC247] before:top-1/2 before:-translate-y-1/2

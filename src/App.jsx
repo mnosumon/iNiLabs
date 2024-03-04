@@ -7,6 +7,7 @@ import Collaborate from './section/Collaborate'
 import Work from './section/Work'
 import Connect from './section/Connect'
 import Report from './section/Report'
+import Built from './section/Built'
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
       <Work/>
       <Connect/>
       <Report/>
+      <Built/>
       <Footer/>
     </>
   )

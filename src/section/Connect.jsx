@@ -1,7 +1,6 @@
 import React from 'react'
 import HeadingH2 from '../components/utilities/HeadingH2'
 import P18px from '../components/utilities/P18px'
-import { FaArrowRightLong } from 'react-icons/fa6'
 import ConnectImg from '../assets/svg/connect.svg'
 import LearnMore from '../components/utilities/LearnMore'
 
@@ -14,7 +13,7 @@ const Connect = () => {
         </div>
         <div className="w-[465px]">
             <HeadingH2 className="w-[450px]" content="Connect your tools, close your tabs"/>
-            <article className="content18px mt-7 mb-[52px] w-[460px] text-justify">Whether you want to edit your Google Docs, resolve Jira issues, or collaborate over Zoom, Miro has 100+ integrations with tools you already use and love.</article>
+            <P18px className="mt-7 mb-[52px] w-[460px] text-justify" content="Whether you want to edit your Google Docs, resolve Jira issues, or collaborate over Zoom, Miro has 100+ integrations with tools you already use and love." />
             <LearnMore/>
         </div>
 

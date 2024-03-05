@@ -6,6 +6,7 @@ import Integrate1 from '../assets/integrate/integrate1.png'
 import Integrate2 from '../assets/integrate/integrate2.png'
 import Integrate3 from '../assets/integrate/integrate3.png'
 import Integrate4 from '../assets/integrate/integrate4.png'
+import P18px from '../components/utilities/P18px'
 
 const KindsOfTeam = () => {
   return (
@@ -13,6 +14,7 @@ const KindsOfTeam = () => {
         <div className="max-w-container mx-auto p-[30px] mb-[120px]">
             <HeadingH2 className="mb-8" content="Built for all kinds of teams"/>
             <div className="flex gap-2 ">
+              {/* ============== index.css common-class (h6_14px)=========== */}
                 <h6 className='h6_14px'>UX & Design</h6>
                 <h6 className='h6_14px'>Marketing</h6>
                 <h6 className='h6_14px'>Product Management</h6>
@@ -29,7 +31,7 @@ const KindsOfTeam = () => {
                     <li className='tickMark'>Run engaging design workshops</li>
                 </ul>
                 <LearnMore/>
-                <article className='content18px mt-[70px] mb-[14px]'>Integrate your favorite tools</article>
+                <P18px className="mt-[70px] mb-[14px]" content="Integrate your favorite tools"/>
                   <ul className='flex gap-8'>
                     <li className='h-7 w-7 overflow-hidden'>
                       <img className='w-full h-full object-cover' src={Integrate4} alt=" Integrate4 image" />

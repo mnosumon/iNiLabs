@@ -22,16 +22,19 @@ const Banner = () => {
                 <div className="w-full bg-[#4262FF] text-center rounded-[32px] my-[10px]">
                     <Button className="py-[15px] px-14 " content="Sing up free"/>
                 </div>
+                {/* ============== index.css common-class (content14px)=========== */}
                 <p className='content14px'>Collaborate with your team within minutes</p>
                 <div className="flex gap-3 items-center mt-10">
                     <div className="">
                         <div className="flex gap-[6px]">
+                            {/* ============== index.css common-class (star)=========== */}
                             <FaStar className='star' />
                             <FaStar className='star' />
                             <FaStar className='star' />
                             <FaStar className='star' />
                             <FaStarHalfAlt className='star'/>
                         </div>
+                        {/* ============== index.css common-class (content11px)=========== */}
                         <span className='content11px text-[#050038]'>Based on 5149+ reviews:</span>
                     </div>
                     <div className="flex gap-[15px] px-[15px] items-center">

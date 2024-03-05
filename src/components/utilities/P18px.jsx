@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {  } from 'react'
 
 const P18px = ({className, content}) => {
   return (

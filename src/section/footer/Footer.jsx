@@ -24,6 +24,7 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className="flex gap-[26px]">
+                        {/* ============index.css => (content11px) common class============= */}
                         <a className='content11px underline' href="#">Privacy Policy</a>
                         <a className='content11px underline' href="#">Terms of Service</a>
                     </div>

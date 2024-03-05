@@ -10,6 +10,7 @@ const Built = () => {
         <div className="max-w-container mx-auto p-[30px] mb-[120px]">
             <HeadingH2 className="mb-8" content="Built for the way you work"/>
             <div className="flex justify-between ">
+              {/* ============== index.css common-class (h6_14px)=========== */}
                 <h6 className='h6_14px'>Brainstorming</h6>
                 <h6 className='h6_14px'>Diagramming</h6>
                 <h6 className='h6_14px'>Meetings & Workshops</h6>
@@ -19,9 +20,9 @@ const Built = () => {
                 <h6 className='h6_14px'>Strategic Planning</h6>
             </div>
             <div className="flex justify-between mt-10">
-              <div className="w-[360px] p-4"> 
-                  <article className='content18px opacity-100'>Brainstorming</article>
-                  <article className='content18px opacity-70 my-7'>Unleash creative ideas and build on them with the help of sticky notes, images, mind maps, videos, drawing capabilities — the list goes on.</article>
+              <div className="w-[360px] p-4">
+                  <P18px className="opacity-100" content="Brainstorming" />
+                  <P18px className="opacity-70 my-7" content="Unleash creative ideas and build on them with the help of sticky notes, images, mind maps, videos, drawing capabilities — the list goes on."/>
                   <LearnMore/>
               </div>
               <div className="w-[700px] h-[472px] overflow-hidden">

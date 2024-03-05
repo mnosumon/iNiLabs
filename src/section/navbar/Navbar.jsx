@@ -19,8 +19,9 @@ const Navbar = () => {
                 </div>
                 <div className="flex gap-4 items-center">
                     <div className="relative">
+                        {/* ============index.css => (content16px) common class============= */}
                         <div className="flex gap-[14px] items-center">
-                            <span className='normalText'>Product</span>
+                            <span className='content16px'>Product</span>
                             <div onClick={handleMenu} className='text-sm'>
                                 { product ? <IoIosArrowUp /> : <FaChevronDown /> } 
                             </div>
@@ -29,47 +30,47 @@ const Navbar = () => {
                         product &&
                         <ul className='absolute top-[35px] left-0'>
                             <li>
-                                <a className='normalText' href="#">Product1</a>
+                                <a className='content16px' href="#">Product1</a>
                             </li>
                             <li>
-                                <a className='normalText' href="#">Product2</a>
+                                <a className='content16px' href="#">Product2</a>
                             </li>
                             <li>
-                                <a className='normalText' href="#">Product3</a>
+                                <a className='content16px' href="#">Product3</a>
                             </li>
                             <li>
-                                <a className='normalText' href="#">Product4</a>
+                                <a className='content16px' href="#">Product4</a>
                             </li>
                             <li>
-                                <a className='normalText' href="#">Product5</a>
+                                <a className='content16px' href="#">Product5</a>
                             </li>
                         </ul>  
                         }
                     </div>
                     <div className="flex gap-[14px] items-center">
-                        <span className='normalText'>Solutions</span>
+                        <span className='content16px'>Solutions</span>
                         <FaChevronDown className='text-sm' /> 
                     </div>
                     <div className="flex gap-[14px] items-center">
-                        <span className='normalText'>Resources</span>
+                        <span className='content16px'>Resources</span>
                         <FaChevronDown className='text-sm' /> 
                     </div>
                     <div className="flex gap-[14px] items-center">
-                        <span className='normalText'>Enterprise</span>
+                        <span className='content16px'>Enterprise</span>
                     </div>
                     <div className="flex gap-[14px] items-center">
-                        <span className='normalText'>Pricing</span>
+                        <span className='content16px'>Pricing</span>
                     </div>
                 </div>
             </div>
             <div className="flex gap-5 items-center">
                 <div className="flex gap-4">
-                    <div className="flex gap-2 items-center normalText">
+                    <div className="flex gap-2 items-center content16px">
                         <TbWorld className='text-2xl' />
-                        <span className='normalText'>EN</span>
+                        <span className='content16px'>EN</span>
                     </div>
                     <div className="">
-                        <span className='normalText'>Contact Sales</span>
+                        <span className='content16px'>Contact Sales</span>
                     </div>
                 </div>
                 <div className="flex items-center gap-5">

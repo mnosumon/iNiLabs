@@ -4,7 +4,7 @@
 
 
 @layer components{
-    .normalText{
+    .content16px{
         @apply text-base font-inter font-normal leading-6 text-[#050038]
     }
     .star{

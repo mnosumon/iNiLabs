@@ -14,7 +14,8 @@ const Collaborate = () => {
             <div className="flex justify-center mb-3">
                 <HeadingH2 className="w-[462px] text-center" content="Collaborate without constraints"/>
             </div>
-            <div className="flex justify-between px-[10px]">
+            <div className="flex justify-between">
+                {/* ============== index.css common-class (content18px)=========== */}
                 <div className="px-6 pt-6 pb-11 w-[360px]">
                     <HeadingH4 className="mb-[30px]" content="Free forever" />
                     <article className='content18px'>Our free plan gives you unlimited team members, 3 boards, and 300+ expert-made templates. Signing up with your work email lets you bring in your team faster. See our <a className='content18px text-[blue] cursor-pointer opacity-100'>Pricing plans</a> for more features.</article>

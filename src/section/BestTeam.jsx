@@ -1,6 +1,5 @@
 import React from 'react'
 import HeadingH2 from '../components/utilities/HeadingH2'
-import Button from '../components/utilities/Button'
 import { FaArrowRightLong } from 'react-icons/fa6'
 import BestTeam1 from '../assets/bestTeam/bestTeam1.png'
 import BestTeam2 from '../assets/bestTeam/bestTeam2.png'
@@ -8,6 +7,7 @@ import BestTeam3 from '../assets/bestTeam/bestTeam3.png'
 import BestTeamPeople1 from '../assets/bestTeam/bestTeamPeople1.png'
 import BestTeamPeople2 from '../assets/bestTeam/bestTeamPeople2.png'
 import BestTeamPeople3 from '../assets/bestTeam/bestTeamPeople3.png'
+import P18px from '../components/utilities/P18px'
 
 const BestTeam = () => {
   return (
@@ -28,12 +28,13 @@ const BestTeam = () => {
                             <img className='w-full h-full object-cover' src={BestTeam3} alt=" BestTeam3" />
                         </div>
                     </div>
-                    <article className='content18px h-[260px] w-[292px] pb-9 pt-4'>“When the pandemic hit, those of us who thrive on in-person collaboration were worried that our creativity and productivity would suffer. Miro was the perfect tool to help us with collaboration, whiteboarding, and retrospectives while remote.”</article>
+                    <P18px className="h-[260px] w-[292px] pb-9 pt-4" content="“When the pandemic hit, those of us who thrive on in-person collaboration were worried that our creativity and productivity would suffer. Miro was the perfect tool to help us with collaboration, whiteboarding, and retrospectives while remote.”" />
                     <div className="flex gap-4">
                         <div className="w-[48px] h-[48px] overflow-hidden">
                             <img className='w-full h-full object-cover' src={BestTeamPeople1} alt="BestTeamPeople1" />
                         </div>
                         <div className="flex flex-col gap-[3px]">
+                            {/* ============== index.css common-class (content14px)=========== */}
                             <span className='content14px'>Roxanne Mustafa</span>
                             <span className='content14px'>Design Team Lead at VMware</span>
                         </div>
@@ -45,13 +46,13 @@ const BestTeam = () => {
                             <img className='w-full h-full object-cover' src={BestTeam2} alt="BestTeam2" />
                         </div>
                     </div>
-
-                    <article className='content18px h-[260px] w-[292px] pb-9 pt-4'>“Miro helps solve one of the major gaps in product design: how to manage tasks across product designers whose projects are in different tools.”</article>
+                    <P18px className="h-[260px] w-[292px] pb-9 pt-4" content="“Miro helps solve one of the major gaps in product design: how to manage tasks across product designers whose projects are in different tools.”"/>
                     <div className="flex gap-4">
                         <div className="w-[48px] h-[48px] overflow-hidden">
                             <img className='w-full h-full object-cover' src={BestTeamPeople2} alt="BestTeamPeople2" />
                         </div>
                         <div className="flex flex-col gap-[3px]">
+                            {/* ============== index.css common-class (content14px)=========== */}
                             <span className='content14px'>Jane Ashley</span>
                             <span className='content14px'>Head of Design at DocuSign</span>
                         </div>
@@ -63,13 +64,13 @@ const BestTeam = () => {
                             <img className='w-full h-full object-cover' src={BestTeam1} alt="BestTeam1" />
                         </div>
                     </div>
-
-                    <article className='content18px h-[260px] w-[292px] pb-9 pt-4'>“As we used Miro we moved from skepticism to belief to innovation, and now we have a tool that’s at the core of what we do and will continue to extend into the future.”</article>
+                    <P18px className="h-[260px] w-[292px] pb-9 pt-4" content="“As we used Miro we moved from skepticism to belief to innovation, and now we have a tool that’s at the core of what we do and will continue to extend into the future.”"/>
                     <div className="flex gap-4">
                         <div className="w-[48px] h-[48px] overflow-hidden">
                             <img className='w-full h-full object-cover' src={BestTeamPeople3} alt="BestTeamPeople3" />
                         </div>
                         <div className="flex flex-col gap-[3px]">
+                            {/* ============== index.css common-class (content14px)=========== */}
                             <span className='content14px'>Laura Baird</span>
                             <span className='content14px'>Associate Design Director at frog</span>
                         </div>

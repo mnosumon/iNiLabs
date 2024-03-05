@@ -12,7 +12,7 @@ import P18px from '../components/utilities/P18px'
 const BestTeam = () => {
   return (
     <section>
-        <div className="max-w-container mx-auto mt-[100px]">
+        <div className="max-w-container mx-auto pt-[100px] pb-14">
             <div className="flex flex-col items-center gap-6 mb-10">
                 <HeadingH2 content="Loved by the world's best teams"/>
                 <div className="relative w-[292px] border border-[#4262FF] rounded-3xl">
@@ -22,7 +22,7 @@ const BestTeam = () => {
                 </div>
             </div>
             <div className="flex gap-5 justify-between items-center"> 
-                <div className="p-9">
+                <div className="p-9 transition-all duration-300 hover:shadow hover:shadow-slate-500 rounded-lg">
                     <div className="h-14">
                         <div className="w-[182px] h-[30px] overflow-hidden">
                             <img className='w-full h-full object-cover' src={BestTeam3} alt=" BestTeam3" />
@@ -40,7 +40,7 @@ const BestTeam = () => {
                         </div>
                     </div>
                 </div>
-                <div className="p-9">
+                <div className="p-9 transition-all duration-300 hover:shadow hover:shadow-slate-500 rounded-lg">
                     <div className="h-14">
                         <div className="w-[192px] h-[43px] overflow-hidden">
                             <img className='w-full h-full object-cover' src={BestTeam2} alt="BestTeam2" />
@@ -58,7 +58,7 @@ const BestTeam = () => {
                         </div>
                     </div>
                 </div>
-                <div className="p-9">
+                <div className="p-9 transition-all duration-300 hover:shadow hover:shadow-slate-500 rounded-lg">
                     <div className="h-14">
                         <div className="w-[88px] h-[52px] overflow-hidden">
                             <img className='w-full h-full object-cover' src={BestTeam1} alt="BestTeam1" />
